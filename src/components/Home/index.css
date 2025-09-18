@@ -1,27 +1,73 @@
 /* Write your CSS here */
-.ipl-bg {
-  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+.home-route-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
   background-size: cover;
-  height: 100vh;
-  text-align: center;
+  min-height: 100vh;
 }
-.ipl-logo {
-  width: 60px;
+
+@media screen and (min-width: 768px) {
+  .home-route-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
 }
-.flex-logo {
+
+.teams-list-container {
+  width: 90%;
+  max-width: 600px;
+}
+
+@media screen and (min-width: 768px) {
+  .teams-list-container {
+    width: 90%;
+    max-width: 1110px;
+  }
+}
+
+.ipl-dashboard-heading-container {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  align-items: center;
 }
-.ipl-head {
-  font-family: Bree Serif;
+
+.ipl-logo {
+  width: 25px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .ipl-logo {
+    width: 60px;
+    height: 96px;
+  }
+}
+
+.ipl-dashboard-heading {
   color: #ffffff;
-  padding-left: 20px;
-  font-size: 50px;
+  font-family: 'Bree Serif';
+  font-size: 36px;
+  margin-left: 12px;
 }
-.teams-container {
+
+@media screen and (min-width: 768px) {
+  .ipl-dashboard-heading {
+    font-size: 72px;
+    margin-left: 16px;
+  }
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.teams-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
-  margin: 20px;
+  padding-left: 0px;
 }
