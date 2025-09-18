@@ -1,0 +1,19 @@
+/* Write your CSS here */
+/* src/components/NotFound/index.css */
+.not-found-container {
+  text-align: center;
+  padding: 50px;
+  color: #ffffff;
+  background-color: #1e293b;
+  min-height: 100vh;
+}
+
+.not-found-heading {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.not-found-description {
+  font-size: 20px;
+  color: #94a3b8;
+}

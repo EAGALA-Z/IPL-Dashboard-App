@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.item-container {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 20px;
+  height: 100px;
+  width: 250px;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.team-logo {
+  width: 60px;
+  padding-right: 20px;
+}
+.team-para {
+  font-family: Bree Serif;
+  color: #ffffff;
+}
